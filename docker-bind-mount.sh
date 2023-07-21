@@ -1,0 +1,2 @@
+docker container create --name datamongo --publish 27018:27017 --mount "type=bind,source=/home/tadeus/Development/Learning/belajar-docker-dasar/mongo-data
+,destination=/data/db"--env MONGO_INITDB_ROOT_USERNAME=tade --env MONGO_INITDB_ROOT_PASSWORD=tade mongo:latest
